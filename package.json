@@ -1,0 +1,20 @@
+{
+    "name": "server-healthcheck",
+    "version": "1.0.0",
+    "description": "Basic health check service",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/main.js"
+    },
+    "keywords": [
+        "server",
+        "health",
+        "check"
+    ],
+    "author": "accenture",
+    "license": "ISC",
+    "dependencies": {
+        "ping": "^0.2.2"
+    }
+}
